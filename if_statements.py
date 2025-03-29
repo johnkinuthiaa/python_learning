@@ -26,7 +26,7 @@ elif students_marks<=59:
     print("Score: B")
 elif students_marks<=69:
     print("Score: B+")
-elif students_marks>69:
+elif students_marks<=100:
     print("score A")
-else:
+elif students_marks>100:
     print("invalid marks")
